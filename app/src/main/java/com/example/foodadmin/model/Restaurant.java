@@ -5,7 +5,7 @@ public class Restaurant {
     String restaurantName;
     String restaurantDescription;
     String restaurantImgUrl;
-
+    String restaurantLocation;
 
     public String getRestaurantLocation() {
         return restaurantLocation;
@@ -15,7 +15,7 @@ public class Restaurant {
         this.restaurantLocation = restaurantLocation;
     }
 
-    String restaurantLocation;
+
     List<MenuItem> restaurantMenuList;
 
     public Restaurant() {
